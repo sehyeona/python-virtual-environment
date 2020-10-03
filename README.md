@@ -10,7 +10,7 @@ python3 -m venv {venv directory path}
 ```
 source {venv directory path}/bin/activate
 ```
-### 3) 가상환경 종려
+### 3) 가상환경 종료
 ```
 source deactivate
 ```
@@ -42,17 +42,18 @@ Available versions:
 ...
 ```
 ### 3) python 설치
-임의로 3.7.6 버전을 받아보자
+* 임의로 3.7.6 버전을 받아보자
 ```
 pyenv install 3.7.5
 ```
+* pyenv versions 명령어를 통해 지금까지 설치한 버전들 확인가능
 ```
 pyenv versions 
 * system (set by /Users/an/.pyenv/version)
   3.7.6
   3.8.2
 ```
-pyenv versions 명령어를 통해 지금까지 설치한 버전들 확인가능
+* 다운받은 파이썬은 아래와 같은 폴더에 저장되어 있다.
 ```
 /Users/{username}/.pyenv/versions 
 ```
@@ -60,11 +61,10 @@ OR
 ```
 ~/.pyenv/versions
 ```
-폴더에 저장되어 있다.
+* 실행기를 이용하여 버전에 맞는 파이썬을 실행할 수 있음 
 ```
 ~/.pyenv/versions/{versionname}/bin/python
 ```
-실행기를 이용하여 버전에 맞는 파이썬을 실행할 수 있음 
 
 
 
