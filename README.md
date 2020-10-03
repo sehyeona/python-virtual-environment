@@ -1,5 +1,5 @@
 # python virtual environment
-## method1. python built in
+## * method1. python built in
 파이썬에서 제공하는 가상환경 설치 모드로서 사용하고 있는 파이썬과 같은 버전의 가상환경 폴더가 설치된다
 
 ### 1) 가상환경 생성
@@ -15,7 +15,7 @@ source {venv directory path}/bin/activate
 source deactivate
 ```
 
-## method2. PYENV로 파이썬 버전 관리하기
+## * method2. PYENV로 파이썬 버전 관리하기
 ### 1) pyenv 설치
 ```
 brew update 
