@@ -77,10 +77,19 @@ pip3 install virtualenv virtualenvwrapper
 ```
 virtualenv --python={python version} {virtual environment name}
 ```
-예를 들어 위에서 설치한 파이썬 3.7.6 버전에 대한 가상환경을 workspace폴더의 crawling폴더안에 venv로 만들어 주고 싶다면
+예를 들어 위에서 설치한 파이썬 3.7.6 버전에 대한 가상환경을 workspace폴더의 crawling폴더안에 venv로 만들어 주고 싶다면 
 ```
 virtualenv --python=~/.pyenv/versions/3.7.6/bin/python3 ~/workspace/crawling/venv
 ```
+#### output
+```
+created virtual environment CPython3.7.6.final.0-64 in 395ms
+  creator CPython3Posix(dest=/Users/an/workspaces/kpop-crawler/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/an/Library/Application Support/virtualenv)
+    added seed packages: pip==20.2.2, setuptools==50.3.0, wheel==0.35.1
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+```
+와 같은 결과와 함께 가상환경 설치완료~
 
 
 
